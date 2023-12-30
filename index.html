@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lerox Development</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -28,6 +29,20 @@
             <li>Custom Solutions</li>
             <!-- Add more services as needed -->
         </ul>
+    </section>
+
+    <section id="links">
+        <h2>Links</h2>
+        <ul id="linkList">
+            <!-- Links will be dynamically added here -->
+        </ul>
+
+        <div id="addLinkForm">
+            <h3>Add a Link</h3>
+            <label for="linkUrl">URL:</label>
+            <input type="url" id="linkUrl" placeholder="Enter URL">
+            <button onclick="addLink()">Add Link</button>
+        </div>
     </section>
 
     <section id="contact">
