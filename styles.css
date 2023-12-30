@@ -40,3 +40,26 @@ li {
 }
 
 /* Add additional styling as needed */
+
+#addLinkForm {
+    margin-top: 20px;
+}
+
+#addLinkForm label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#addLinkForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+#addLinkForm button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
